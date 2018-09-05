@@ -1,0 +1,45 @@
+# == Schema Information
+#
+# Table name: experiments
+#
+#  id               :bigint(8)        not null, primary key
+#  name             :string
+#  location         :string
+#  operator         :string
+#  mixing_condition :integer
+#  date             :date
+#  viscosity        :float
+#  cure_time        :float
+#  elongation       :float
+#  tensile_strength :float
+#  compression_set  :float
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#  oven_temperature :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  location: MyString
+  operator: MyString
+  mixing_condition: 1
+  date: 2018-09-04
+  viscosity: 1.5
+  cure_time: 1.5
+  elongation: 1.5
+  tensile_strength: 1.5
+  compression_set: 1.5
+
+two:
+  name: MyString
+  location: MyString
+  operator: MyString
+  mixing_condition: 1
+  date: 2018-09-04
+  viscosity: 1.5
+  cure_time: 1.5
+  elongation: 1.5
+  tensile_strength: 1.5
+  compression_set: 1.5
