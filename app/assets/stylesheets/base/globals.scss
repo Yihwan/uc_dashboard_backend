@@ -1,0 +1,17 @@
+// Colors for dark-theme
+$dark: #202940;
+$darker: #191D2F;
+$darkest: #040d14;
+
+$teal: #0494A8;
+
+// Typeface
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,500,600,700');
+
+body {
+  background-color: $darker;
+}
+
+* {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}

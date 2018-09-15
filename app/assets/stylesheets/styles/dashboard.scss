@@ -1,0 +1,23 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+
+  section {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+  }
+  .experiment-cards {
+
+  }
+
+  .operator-distribution {
+    background-color: blue;
+
+  }
+
+  .materials-histogram {
+    background-color: purple;
+  }
+}
